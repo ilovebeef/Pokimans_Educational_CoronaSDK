@@ -1,0 +1,31 @@
+-- Supported values for orientation:
+-- portrait, portraitUpsideDown, landscapeLeft, landscapeRight
+
+settings = {
+	
+	orientation = {
+		default = "portait",
+		supported = { "portrait", }
+	},
+	 android =
+    {
+        
+    },
+	
+	iphone = {
+		plist = {
+			UIStatusBarHidden = false,
+			UIPrerenderedIcon = true, -- set to false for "shine" overlay
+			
+		}
+	},
+	
+	--[[
+	-- Android permissions
+
+	androidPermissions = {
+  		
+  	},
+
+	]]--
+}
